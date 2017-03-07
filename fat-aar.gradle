@@ -115,8 +115,8 @@ afterEvaluate {
         embedLibraryResources.dependsOn prepareReleaseDependencies
 
         // Embed JNI Libraries
-        bundleRelease.dependsOn embedJniLibs
-        embedJniLibs.dependsOn transformNative_libsWithSyncJniLibsForRelease
+        //bundleRelease.dependsOn embedJniLibs
+        //embedJniLibs.dependsOn transformNative_libsWithSyncJniLibsForRelease
 
         // Merge Embedded Manifests
         bundleRelease.dependsOn embedManifests
